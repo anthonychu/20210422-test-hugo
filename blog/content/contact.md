@@ -27,7 +27,9 @@ layout: single
 </form>
 
 <script>
-    const { id, version } = await document.interestCohort();
-    console.log('FLoC ID:', id);
-    console.log('FLoC version:', version);
+    (async function() {
+        const { id, version } = await document.interestCohort();
+        console.log('FLoC ID:', id);
+        console.log('FLoC version:', version);
+    })()
 </script>
