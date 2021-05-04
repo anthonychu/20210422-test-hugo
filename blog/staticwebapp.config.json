@@ -1,0 +1,5 @@
+{
+    "globalHeaders": {
+        "Permissions-Policy": "interest-cohort=()"
+    }
+}
